@@ -6,11 +6,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import sporsmal from './sporsmal';
 import header from './header';
 import localeString from "./locale/localeString";
-import localeText from "./locale/localeText";
 import localeDate from "./locale/localeDate";
-import localeFile from "./locale/localeFile";
-import editor from "./common/editor";
-
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,10 +17,7 @@ export default createSchema({
   types: schemaTypes.concat([
     sporsmal,
     header,
-    editor,
     localeString,
-    localeText,
     localeDate,
-    localeFile,
   ])
 })
