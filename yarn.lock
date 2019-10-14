@@ -761,7 +761,7 @@
 
 "@sanity/core@^0.142.6":
   version "0.142.6"
-  resolved "https://registry.npmjs.org/@sanity/core/-/core-0.142.6.tgz#05e306f1be7953dddbede22277f0b64c8bacfc0b"
+  resolved "https://registry.yarnpkg.com/@sanity/core/-/core-0.142.6.tgz#05e306f1be7953dddbede22277f0b64c8bacfc0b"
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.5.5"
     "@babel/preset-env" "^7.6.0"
