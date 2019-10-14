@@ -673,7 +673,7 @@
 
 "@sanity/base@^0.142.6":
   version "0.142.6"
-  resolved "https://registry.npmjs.org/@sanity/base/-/base-0.142.6.tgz#9a8bb0cb6bff79d7710d634254aa786224404ebf"
+  resolved "https://registry.yarnpkg.com/@sanity/base/-/base-0.142.6.tgz#9a8bb0cb6bff79d7710d634254aa786224404ebf"
   dependencies:
     "@sanity/client" "0.142.6"
     "@sanity/document-store" "0.142.6"
