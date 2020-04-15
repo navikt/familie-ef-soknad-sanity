@@ -5,6 +5,7 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 import sporsmal from './sporsmal';
 import header from './header';
+import forside from './forside';
 import localeString from "./locale/localeString";
 import localeDate from "./locale/localeDate";
 
@@ -17,6 +18,7 @@ export default createSchema({
   types: schemaTypes.concat([
     sporsmal,
     header,
+    forside,
     localeString,
     localeDate,
   ])
