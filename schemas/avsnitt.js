@@ -4,9 +4,15 @@ export default {
     title: 'Avsnitt',
     fields: [
         {
-            name: 'overskrift',
-            type: 'string',
-            title: 'Overskrift',
+            title: 'Tittel',
+            name: 'tittel',
+            type: 'string'
+        },
+        {
+            title: 'Innhold', 
+            name: 'innhold',
+            type: 'array', 
+            of: [{type: 'block'}]
         }
     ]
 }
