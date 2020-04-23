@@ -20,6 +20,7 @@ export default createSchema({
     sporsmal,
     header,
     side,
+    forside_arbeidssoker,
     localeString,
     localeDate,
     avsnitt

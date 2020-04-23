@@ -1,7 +1,7 @@
 export default {
-    name: 'forside',
+    name: 'forside_arbeidssoker',
     type: 'document',
-    title: 'Forside',
+    title: 'Forside (Arbeidssøker)',
     fields: [
         {
             title: 'Seksjon (bokmål)', 
