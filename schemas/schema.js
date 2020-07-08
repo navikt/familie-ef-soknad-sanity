@@ -10,6 +10,7 @@ import localeString from "./locale/localeString";
 import localeDate from "./locale/localeDate";
 import avsnitt from './avsnitt';
 import forside_arbeidssoker from './side_arbeidssoker';
+import forside_barnetilsyn from './side_barnetilsyn';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -22,6 +23,7 @@ export default createSchema({
     header,
     side,
     forside_arbeidssoker,
+    forside_barnetilsyn,
     localeString,
     localeDate,
     avsnitt
