@@ -3,6 +3,25 @@
   "project": {
     "name": "soknad"
   },
+  "__experimental_spaces": [
+    {
+      "name": "production",
+      "title": "Prod",
+      "default": true,
+      "api": {
+        "projectId": "m3pb011r",
+        "dataset": "production"
+      }
+    },
+    {
+      "name": "test",
+      "title": "Test",
+      "api": {
+        "projectId": "m3pb011r",
+        "dataset": "staging"
+      }
+    }
+  ],
   "api": {
     "projectId": "m3pb011r",
     "dataset": "production"
